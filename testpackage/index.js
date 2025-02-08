@@ -1,3 +1,3 @@
-const helloWorld = require("mynpmpackage");
+const helloWorld = require("mynpmpackage-mirco");
 
 helloWorld();

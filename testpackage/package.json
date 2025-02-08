@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mynpmpackage": "^1.0.1"
+    "mynpmpackage-mirco": "^1.0.0-dev.1"
   }
 }

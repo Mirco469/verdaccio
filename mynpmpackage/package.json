@@ -1,10 +1,11 @@
 {
-  "name": "mynpmpackage",
-  "version": "1.0.1",
+  "name": "mynpmpackage-mirco",
+  "version": "1.0.0-dev.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-package": "npm publish"
+    "publish-package": "npm publish",
+    "increase-dev-version": "npm version prerelease"
   },
   "keywords": [],
   "author": "",
