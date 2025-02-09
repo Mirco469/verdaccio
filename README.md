@@ -14,3 +14,5 @@ Use `npm update mynpmpackage-mirco` on the testpackage (the package that uses my
 
 When running npm `login --registry http://localhost:4873/` the result is written inside the .npmrc C:\Users\<nome-utente>\.npmrc.
 Here we can find \_auth and \_authToken (for some reason the \_auth generated from the login was different from the echo base64. I did not try to use the login \_auth in place of the base64 to see if it workend anyway)
+
+To see what's inside the volume (basically my package) run `docker run -it -v verdaccio_verdaccio-volume:/volume-content ubuntu`. (By default docker adds the project name (name of the directory that contains the docker-compose) before the volume name, that's why the volume is prefixed by "verdaccio\_")
