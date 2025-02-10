@@ -9,6 +9,7 @@ Set max_users: -1 to disable new user registrations
 Set declaration = true in mynpmpackage to tell typescript to generate types
 
 Value for \_auth in .npmrc file is the result of `echo -n '<username>:<password>' | base64`. `-n` avoid the creation of a newline while generating the base64
+Alternatively, instead of \_auth, we can user username & \_password (password is the base64 of the password). Originally in this demo this was not working. But after generating the user again it worked. Don't know why.
 
 Use `npm update mynpmpackage-mirco` on the testpackage (the package that uses mynpmpackage) to update the dependency after a new version is published. Otherwiser even running npm install will leave us with the already downloaded version even if a new one is available.
 

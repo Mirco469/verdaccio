@@ -1,6 +1,6 @@
 {
   "name": "mynpmpackage-mirco",
-  "version": "1.0.0-dev.23",
+  "version": "1.0.0-dev.32",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
